@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(255, 214, 127); /* Couleur de fond du corps de la page */
+    background-size: cover; /* Redimensionne l'image de fond pour couvrir tout l'écran */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    background-position: center; /* Positionne l'image de fond au centre */
+    font-family: Arial, sans-serif; /* Police de caractères utilisée pour le texte */
+    color: #333; /* Couleur du texte */
+}
+
+h1 {
+    text-align: center; /* Centre le texte dans le titre h1 */
+    color: #4CAF50; /* Couleur du texte du titre h1 */
+    font-size: 2em; /* Taille de la police du titre h1 */
+    margin: 20px 0; /* Marge autour du titre h1 (haut et bas) */
+}
+
+header {
+    display: flex; /* Utilise la disposition flexible pour le contenu de l'en-tête */
+    justify-content: space-between; /* Répartit l'espace entre les éléments de l'en-tête */
+    align-items: center; /* Centre verticalement les éléments de l'en-tête */
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond de l'en-tête avec une transparence */
+    padding: 20px; /* Espace intérieur de l'en-tête */
+    border-bottom: 3px solid #4CAF50; /* Bordure inférieure de l'en-tête */
+}
+
+form {
+    background-color: #fff; /* Couleur de fond du formulaire */
+    padding: 30px; /* Espace intérieur du formulaire */
+    border: 9px solid #207920; /* Bordure du formulaire */
+    border-radius: 10px; /* Coins arrondis du formulaire */
+    max-width: 800px; /* Largeur maximale du formulaire */
+    margin: auto; /* Centre le formulaire horizontalement */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre pour le formulaire */
+}
+
+label {
+    display: block; /* Affiche les étiquettes sur des lignes séparées */
+    font-weight: bold; /* Texte en gras pour les étiquettes */
+    margin-top: 10px; /* Marge supérieure des étiquettes */
+    color: #333; /* Couleur du texte des étiquettes */
+}
+
+/* Styles pour différents types d'éléments de formulaire */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea,
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"] {
+    width: 96%; /* Largeur de la plupart des champs de formulaire */
+    padding: 10px; /* Remplissage interne des champs */
+    margin-bottom: 10px; /* Marge inférieure des champs */
+    border: 1px solid #ccc; /* Bordure des champs */
+    border-radius: 5px; /* Coins arrondis des champs */
+    font-size: 16px; /* Taille de la police des champs */
+}
+
+input[type="file"] {
+    display: block; /* Affiche le champ de fichier sur une nouvelle ligne */
+}
+
+textarea {
+    resize: vertical; /* Permet la redimensionnement vertical du champ de texte */
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: flex; /* Utilise la disposition flexible pour les cases à cocher et les boutons radio */
+    align-items: grid; /* Aligne les éléments horizontalement */
+    margin-right: 10px; /* Marge à droite des cases à cocher et boutons radio */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Couleur de fond du bouton Soumettre */
+    color: #fff; /* Couleur du texte du bouton Soumettre */
+    border: none; /* Pas de bordure pour le bouton Soumettre */
+    padding: 15px 20px; /* Remplissage du bouton Soumettre */
+    border-radius: 5px; /* Coins arrondis du bouton Soumettre */
+    cursor: pointer; /* Curseur de la souris en main au survol du bouton */
+    font-size: 18px; /* Taille de la police du bouton Soumettre */
+}
+
+footer {
+    background-color: #333; /* Couleur de fond du pied de page */
+    color: #fff; /* Couleur du texte du pied de page */
+    text-align: center; /* Centre le texte dans le pied de page */
+    padding: 10px; /* Espace intérieur du pied de page */
+}
+
+footer a {
+    color: #4CAF50; /* Couleur des liens dans le pied de page */
+    text-decoration: none; /* Supprime la soulignement des liens */
+}
+
+/* Disperse fieldsets (éléments de groupe pour les champs de formulaire) */
+form fieldset {
+    border: 1px solid #207920; /* Bordure des éléments de groupe */
+    border-radius: 10px; /* Coins arrondis des éléments de groupe */
+    margin: 20px; /* Marge autour des éléments de groupe */
+    padding: 10px; /* Espace intérieur des éléments de groupe */
+    max-width: 800px; /* Largeur maximale des éléments de groupe */
+}

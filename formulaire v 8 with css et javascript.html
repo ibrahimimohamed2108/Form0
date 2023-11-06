@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/fr/0/05/EMI.PNG">
+    <meta name="Auteur" content="Mohamed Ibrahimi">
+    <meta name="Description" content="Cette page est un Formulair pour automatiquement remplir vos CV">
+	<script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="formstyle2.css"> 
+    <title>Formulaire de CV</title>
+</head>
+
+<body>
+    <center><h1>Formulaire du CV</h1></center>
+    <form id="cvForm">
+
+        <fieldset>
+            <legend>Identité</legend>
+            <label>Nom</label>
+            <input type="text" id="nom" placeholder="Saisir votre Nom" required>
+
+            <label>Prénom</label>
+            <input type="text" id="prénom" placeholder="Saisir votre Prénom" required>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Genre</legend>
+
+
+			<input type="radio" name="gender" value="male"><label>male</label>
+			<input type="radio" name="gender" value="female"><label>femelle</label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Informations personelles</legend>
+
+            <label>Numéro du téléphone</label>
+            <input type="text" id="numerodutéléphone" placeholder="+212..." required>
+            <label>Adresse</label>
+            <input type="text" placeholder="Saisir votre Adresse" required>
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Saisir votre eMail" required>
+            <label for="birthday">Choisir votre date de naissance:</label>
+            <input type="date" id="birthday" name="Date de naissance">
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Objectifs</legend>
+            <label>Que souhaites-vous</label>
+            <textarea placeholder="Vos Objectifs"></textarea>
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Diplomes</legend>
+            <select>
+                <option>Ingenieur D'état</option>
+                <option>Master</option>
+                <option>Bachelor</option>
+                <option>Doctorant</option>
+                <option>DUT,DEUG</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Compétences Techniques</legend>
+            <label>Que savez vous faire?</label>
+            <textarea placeholder="Vos Compétences techniques"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Centres d'interets</legend>
+            <input type="checkbox"><label>AI</label>
+            <input type="checkbox"><label>Cybersecurity</label>
+            <input type="checkbox"><label>Software</label>
+
+            <input type="checkbox"><label>Systèmes Embarqués</label>
+            <input type="checkbox"><label>Data</label>
+            <input type="checkbox"><label>Autres</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Langues Maitrisés</legend>
+            <input type="checkbox"><label>Arabe</label>
+            <input type="checkbox"><label>Anglais</label>
+            <input type="checkbox"><label>Français</label>
+            <input type="checkbox"><label>Almande</label>
+            <input type="checkbox"><label>Japonais</label>
+
+
+            <input type="checkbox"><label>Autres</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message</legend>
+            <label>Message</label>
+            <textarea placeholder="Description"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Photo</legend>
+            <label>Télécharger votre photo</label>
+            <input type="file">
+        </fieldset>
+
+      <center>  <input type="submit" value="Submit"></center>
+    </form>
+    <hr>
+    <footer>
+        <p>Edité par <abbr title="Mohamed Ibrahimi">
+            <a href="https://www.linkedin.com/in/mohamed-ibrahimi-090317260/">M.IBRAHIMI</a></abbr></p>
+
+        &lt; &copy; <abbr title="Mohamed Ibrahimi">
+            <a href="https://www.linkedin.com/in/mohamed-ibrahimi-090317260/">M.IBRAHIMI</a></abbr> All rights reserved &gt;
+        <p>Last modified at :<code> 10/04/2023;10:02:23 </code></p>
+    </footer>
+    <hr>
+
+</body>
+</html>
